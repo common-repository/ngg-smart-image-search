@@ -1,0 +1,635 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: NGG Smart Image Search\n"
+"POT-Creation-Date: 2018-12-11 04:34+0100\n"
+"PO-Revision-Date: 2016-10-09 23:25+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: ngg-smart-image-search.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/class-ngg-smart-image-search-admin.php:137
+#: admin/class-ngg-smart-image-search-admin.php:817
+msgid "Settings"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:223
+msgid "Warning:"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:224
+#, php-format
+msgid ""
+"NGG Smart Image Search is an add-on for the %1$s WordPress plugin, but <b>"
+"%1$s is not <i>activated</i></b>."
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:232
+#: ngg-smart-image-search.php:42
+msgid "Error:"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:233
+#, php-format
+msgid ""
+"NGG Smart Image Search is an add-on for the %1$s WordPress plugin, but <b>"
+"%1$s is not <i>installed</i></b>."
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:273
+msgid "Landing Page for Widget Search Function:"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:280
+msgid "Search Landing Page"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:290
+msgid "Search Mode and Styles:"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:297
+msgid "Search Mode"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:305
+msgid "Searchbox Style"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:313
+msgid "Thumbnail Border Style"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:324
+msgid "Miscellaneous Options:"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:331
+msgid "Show notifications"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:339
+msgid "Enable uploader"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:376
+msgid "Search Images in NextGEN Galleries"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:377
+msgid "search-ngg-images"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:379
+msgid ""
+"Images will be searched in all galleries of this website.<br><br>The "
+"specified searchstring will be searched in the fields <em>Title</em>, "
+"<em>Description</em>, <em>Filename</em> and <em>Tags</em> of the respective "
+"images. The search is not case sensitive."
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:381
+msgid ""
+"Images will be searched in all public galleries of this website.<br><br>The "
+"specified searchstring will be searched in the fields <em>Title</em>, "
+"<em>Description</em> and <em>Tags</em> of the respective images. The search "
+"is not case sensitive."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: admin/class-ngg-smart-image-search-admin.php:417
+#: admin/class-ngg-smart-image-search-admin.php:817
+msgid "NGG Smart Image Search"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:420
+msgid "Smart Image Search in NextGEN Galleries"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:505
+#: public/class-ngg-smart-image-search-public.php:1693
+#: public/class-ngg-smart-image-search-public.php:1724
+msgid "Enter searchstring for images"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:543
+msgid "plugin visibility for"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:548
+msgid "public user"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:553
+msgid "logged in user"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:556
+#: admin/class-ngg-smart-image-search-admin.php:589
+#: admin/class-ngg-smart-image-search-admin.php:655
+msgid "Title"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:562
+msgid "show title in widget"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:565
+msgid "Placeholder"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:571
+msgid "Limit number of listed images"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:577
+msgid "Minimum size of search string"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:580
+msgid "characters long"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:584
+msgid "check searchstring in field"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:594
+#: admin/class-ngg-smart-image-search-admin.php:660
+msgid "Description"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:599
+#: admin/class-ngg-smart-image-search-admin.php:670
+msgid "Filename"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:604
+#: admin/class-ngg-smart-image-search-admin.php:694
+msgid "Tags"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:611
+msgid "search in all galleries"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:615
+msgid "only search in specified albums and galleries"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:616
+msgid "Search albums"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:619
+msgid "Search galleries"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:622
+#: admin/class-ngg-smart-image-search-admin.php:641
+msgid "comma separated list of gallery and album IDs"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:629
+msgid "exclude no gallery from search"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:634
+msgid "exclude specified albums and galleries from search"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:635
+msgid "Exclude albums"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:638
+msgid "Exclude galleries"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:645
+msgid "Result list will describe images by"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:650
+msgid "Image ID"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:665
+msgid "Date"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:675
+msgid "File Size"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:680
+msgid "Backup Size"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:688
+msgid "Uploader"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:699
+msgid "Gallery ID"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:704
+msgid "Gallery Name"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:709
+msgid "Gall.Description"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:819
+msgid "extended mode"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:831
+msgid "Save Changes"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:844
+msgid ""
+"Widget Search landing page will be automatically generated during plugin "
+"activation and initialization."
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:849
+msgid "page id"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:851
+msgid "slug"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:853
+msgid "title"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:860
+msgid ""
+"Define how the entered search string will be interpreted by the plugin and "
+"how searchbox and thumbnails will be styled."
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:868
+msgid "basic search"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:869
+msgid ""
+"Basic search will search for all search items in the input search string, "
+"which are seperated by blanks (white space)."
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:870
+msgid ""
+"Selected images must satisfy at least one of these search items (OR "
+"condition)."
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:872
+msgid "escape +"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:873
+msgid "enable escape character for dynamic switch to extended search mode"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:876
+msgid "extended search"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:877
+msgid ""
+"Extended search enables multi-key search items and special search terms in "
+"the input search string."
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:878
+msgid ""
+"Selected images must satisfy all of these search items (AND condition)."
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:880
+msgid "escape -"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:881
+msgid "enable escape character for dynamic switch to basic search mode"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:889
+msgid "plugin specific style"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:891
+msgid "general theme dependent style"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:892
+msgid ""
+"CSS classnames for the seachbox definition will be plugin-specific or more "
+"wordpress generic adopting theme styling."
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:899
+msgid ""
+"These settings only apply to thumbnails used in display type si (single "
+"images), li (linked images) and at (advanced thumbnails)."
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:900
+msgid ""
+"All other thumbnails are displayed by NextGEN Gallery code and use their "
+"own applicable settings."
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:901
+msgid "border size"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:904
+msgid ""
+"Border size must be specified as an integer in the range 0 to 20 and will "
+"be interpreted as pixel."
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:906
+msgid "border color"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:910
+msgid "border color hover"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:914
+msgid "Select color in color picker or directly provide a hex color code."
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:920
+msgid "Miscellaneous further settings for notifications and custom field."
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:927
+msgid "on plugin page and on settings page"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:929
+msgid "only on settings page"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:931
+msgid "show no notification"
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:932
+msgid ""
+"Plugin sets notifications if the needed plugin (NextGEN Gallery) is not "
+"installed or activated."
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:942
+msgid "Field <em>uploader</em> exists, option enabled."
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:945
+msgid "Field <em>uploader</em> does not exist, option disabled."
+msgstr ""
+
+#: admin/class-ngg-smart-image-search-admin.php:953
+msgid "enable listing of uploader user-id"
+msgstr ""
+
+#: ngg-smart-image-search.php:43
+msgid ""
+"Plugin <i>NGG Smart Image Search Beta</i> must be deactivated first before "
+"activating its productive version again."
+msgstr ""
+
+#: public/class-ngg-smart-image-search-public.php:230
+#: public/class-ngg-smart-image-search-public.php:511
+#: public/class-ngg-smart-image-search-public.php:514
+msgid "Warning: unknown shortcode parameter:"
+msgstr ""
+
+#: public/class-ngg-smart-image-search-public.php:407
+msgid "Warning: shortcode parameter has wrong format:"
+msgstr ""
+
+#: public/class-ngg-smart-image-search-public.php:459
+#: public/class-ngg-smart-image-search-public.php:473
+#: public/class-ngg-smart-image-search-public.php:484
+msgid "Warning: unknown value for shortcode parameter:"
+msgstr ""
+
+#: public/class-ngg-smart-image-search-public.php:571
+msgid "No searchstring for images entered."
+msgstr ""
+
+#: public/class-ngg-smart-image-search-public.php:595
+#, php-format
+msgid ""
+"Searchstring _<b><em>%s</em></b>_ does not have the required minimum length "
+"of %s characters."
+msgstr ""
+
+#: public/class-ngg-smart-image-search-public.php:625
+#, php-format
+msgid "No search item found in basic searchstring %s."
+msgstr ""
+
+#: public/class-ngg-smart-image-search-public.php:639
+#, php-format
+msgid ""
+"Searchitem _<b><em>%s</em></b>_ in searchstring _<b><em>%s</em></b>_ does "
+"not have the required minimum length of %s characters."
+msgstr ""
+
+#: public/class-ngg-smart-image-search-public.php:710
+#, php-format
+msgid ""
+"ERROR: you cannot search for two different gallery id's in searchstring %s."
+msgstr ""
+
+#: public/class-ngg-smart-image-search-public.php:717
+#, php-format
+msgid ""
+"ERROR: you cannot use field qualifier %s for gallery search in searchstring "
+"%s."
+msgstr ""
+
+#: public/class-ngg-smart-image-search-public.php:729
+#, php-format
+msgid ""
+"WARNING: gallery search in searchstring %s is not authorized by settings "
+"for public users."
+msgstr ""
+
+#: public/class-ngg-smart-image-search-public.php:738
+#: public/class-ngg-smart-image-search-public.php:764
+#, php-format
+msgid ""
+"ERROR searchstring %s : you cannot search for recent and last images at the "
+"same time."
+msgstr ""
+
+#: public/class-ngg-smart-image-search-public.php:747
+#, php-format
+msgid ""
+"ERROR: you cannot use field qualifier %s for recent images search in "
+"searchstring %s."
+msgstr ""
+
+#: public/class-ngg-smart-image-search-public.php:773
+#, php-format
+msgid ""
+"ERROR: you cannot use field qualifier %s for last images search in "
+"searchstring %s."
+msgstr ""
+
+#: public/class-ngg-smart-image-search-public.php:922
+#, php-format
+msgid "Searchstring %s will result in empty search."
+msgstr ""
+
+#: public/class-ngg-smart-image-search-public.php:1079
+#, php-format
+msgid "1 image found for searchstring %s."
+msgstr ""
+
+#: public/class-ngg-smart-image-search-public.php:1082
+#, php-format
+msgid "%s images found for searchstring %s."
+msgstr ""
+
+#: public/class-ngg-smart-image-search-public.php:1088
+#, php-format
+msgid "Show paged result list with %s images per page."
+msgstr ""
+
+#: public/class-ngg-smart-image-search-public.php:1095
+msgid "(Number of displayed images limited by settings.)"
+msgstr ""
+
+#: public/class-ngg-smart-image-search-public.php:1102
+msgid "This is a special search for displaying gallery"
+msgstr ""
+
+#: public/class-ngg-smart-image-search-public.php:1123
+msgid "This is a special search for displaying the last uploaded images."
+msgstr ""
+
+#: public/class-ngg-smart-image-search-public.php:1127
+msgid ""
+"This is a special search for displaying the images with newest imagedate."
+msgstr ""
+
+#: public/class-ngg-smart-image-search-public.php:1131
+msgid ""
+"Warning: NextGEN pro galleries not available. Switched display type to "
+"advanced thumbnails."
+msgstr ""
+
+#: public/class-ngg-smart-image-search-public.php:1298
+#: public/class-ngg-smart-image-search-public.php:1357
+#: public/class-ngg-smart-image-search-public.php:1385
+msgid "(excluded)"
+msgstr ""
+
+#: public/class-ngg-smart-image-search-public.php:1398
+msgid "image id"
+msgstr ""
+
+#: public/class-ngg-smart-image-search-public.php:1401
+msgid "image title"
+msgstr ""
+
+#: public/class-ngg-smart-image-search-public.php:1404
+#: public/class-ngg-smart-image-search-public.php:1590
+msgid "description"
+msgstr ""
+
+#: public/class-ngg-smart-image-search-public.php:1407
+msgid "image date"
+msgstr ""
+
+#: public/class-ngg-smart-image-search-public.php:1410
+msgid "filename"
+msgstr ""
+
+#: public/class-ngg-smart-image-search-public.php:1528
+#: public/class-ngg-smart-image-search-public.php:1531
+msgid "image size"
+msgstr ""
+
+#: public/class-ngg-smart-image-search-public.php:1531
+msgid "file path not found"
+msgstr ""
+
+#: public/class-ngg-smart-image-search-public.php:1540
+#: public/class-ngg-smart-image-search-public.php:1543
+msgid "backup size"
+msgstr ""
+
+#: public/class-ngg-smart-image-search-public.php:1543
+msgid "not available"
+msgstr ""
+
+#: public/class-ngg-smart-image-search-public.php:1562
+msgid "uploader"
+msgstr ""
+
+#: public/class-ngg-smart-image-search-public.php:1572
+#: public/class-ngg-smart-image-search-public.php:1575
+msgid "gallery id"
+msgstr ""
+
+#: public/class-ngg-smart-image-search-public.php:1583
+#: public/class-ngg-smart-image-search-public.php:1586
+msgid "gallery title"
+msgstr ""
+
+#: public/class-ngg-smart-image-search-public.php:1601
+msgid "tags"
+msgstr ""
+
+#: public/class-ngg-smart-image-search-public.php:1613
+msgid "Warning: "
+msgstr ""
+
+#: public/class-ngg-smart-image-search-public.php:1613
+msgid "No correct display parameter supplied"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://r-fotos.de/wordpress-plugins/ngg-smart-image-search"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin provides a customizable smart image search and display function "
+"for images in NextGEN galleries."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Harald R&ouml;h"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://r-fotos.de"
+msgstr ""

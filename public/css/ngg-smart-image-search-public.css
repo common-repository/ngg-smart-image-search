@@ -1,0 +1,264 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.search-form {
+   margin-bottom: 0;
+}
+
+form.search-form input.search-field {
+	 color: #444 ;
+   font-size: 13px; 
+	 margin: auto;
+	 width: 100%;
+}
+
+form.search-form button.search-submit {
+   position: absolute;
+   bottom: 1px;
+   right: 0 !important;
+   top: 1px;
+   padding:  0.0em 0.5em 0;
+	 background-image: linear-gradient(to left, #e0e0e0 0%, #fafafa 100%);
+}
+form.search-form button.search-submit:hover {
+	 background-image: linear-gradient(to right, #e0e0e0 0%, #fafafa 100%);
+}
+
+form.search-form button.search-submit .icon {
+	 width: 1.5em;
+}
+
+form.search-form button.search-submit svg.icon-search {
+   color: #888;
+   height: 20px;
+   font-size: 12px;
+}
+
+.search-field::-webkit-input-placeholder {
+  	 color: #aaa ;
+}
+
+.search-field:-ms-input-placeholder {
+  	 color: #aaa ;
+}
+
+.search-field:-moz-placeholder {
+  	 color: #aaa ;
+}
+
+.search-field::-moz-placeholder {
+  	 color: #aaa ;
+}
+
+/* ---------------------------------------------------------------------- */
+
+div.entry-content form.hr-searchform-box {
+	 width: 75%  ;
+}
+
+.hr-widget-title {
+	font-size: 0.875rem;
+}
+
+form.hr-searchform-widget, 
+form.hr-searchform-box {
+	 position: relative;
+	 display: block    ;
+	 border-radius:5px ;
+	 box-shadow: #888 0px 0px 0px 1px inset;
+}
+
+.hr_searchfield {
+	 display: inline-block !important;
+	 box-sizing: border-box !important;
+	 width: 100%  !important;
+	 padding: 0.3em 3em 0.3em 0.7em !important;
+	 color: #444 !important;
+	 border-radius: 5px !important;
+	 font-size:0.9rem;
+}
+
+button.hr_searchsubmit {
+	 color: #555 ;
+	 background-image: linear-gradient(to left, #d5d5e0 0%, #eaeaf5 100%);
+}
+button.hr_searchsubmit:hover {
+	 color: #555 ;
+	 background-image: linear-gradient(to right, #d5d5e0 0%, #eaeaf5 100%);
+}
+
+.hr_searchform_wrapper {
+	position: relative;	
+}
+
+.hr_searchform_wrapper button.search-submit {
+	line-height: 1;	
+}
+
+.hr_searchsubmit {
+	 position: absolute;
+	 top:1px;
+	 bottom:1px;
+	 right:1px;
+	 cursor: pointer;
+	 padding: 0 0.5em 0 0.5em;
+/*   border:1px solid #bbb ; */
+	 border-radius:5px ;
+	 width: 2.2rem;
+}
+
+.hr-searchicon {
+	 display: inline-block;
+	 position:absolute;
+	 top:0;
+	 right:0;
+	 padding: 0 0.3em 0 0.3em ;
+}
+
+.hr-searchicon:before {
+	content: '\f400';
+	font-family: 'Genericons';
+  font-size: 1.4rem;
+}
+
+
+.hr_searchfield::-webkit-input-placeholder {
+  	 color: #aaa !important;
+}
+
+.hr_searchfield:-ms-input-placeholder {
+  	 color: #aaa !important;
+}
+
+.hr_searchfield:-moz-placeholder {
+  	 color: #aaa !important;
+}
+
+.hr_searchfield::-moz-placeholder {
+  	 color: #aaa !important;
+}
+
+/** 
+ *   customize paging buttons 
+ */
+
+form#hr_SIS_paging.hr_paging {
+	margin: auto;
+	display: inline-block !important;
+	float: none;
+}
+
+ /* Pagination links */
+button.hr_paging_number {
+    width: 50px !important;
+    color: black !important;
+    float: none;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+/* Style the active/current link */
+button.hr_paging_number.hr_active_page {
+    background-color: black !important;
+    color: dodgerblue !important;
+    font-weight: bold ;
+}
+
+/* Add a grey background color on mouse-over */
+.hr_paging_number:hover:not(.active) {
+	background-color: #ddd !important;
+} 
+button.hr_paging_number.btn.btn-primary {
+	  color: black ;
+	  width: 50px ;
+	  margin: 0px 5px;
+}
+
+div.hr_page_form {
+	display:flex;
+	justify-content: center;
+}
+
+/**
+ * customize  advanced thumbnail layout  
+ *
+ */
+div.hr_at_box {
+   display:block;
+   float:left;
+   width:250px; 
+   height:220px; 
+   margin-top:36px; 
+   padding: 10px;
+}
+ 
+div.hr_li_inner,
+div.hr_at_inner {
+   display:flex;
+   justify-content:center;
+   max-height:200px;
+}
+
+a.hr_at_ref {
+	 box-shadow:none !important;
+}
+
+img.hr_li_image,
+img.hr_at_image {
+   display:flex;
+   justify-content:center;
+   max-width:100%; 
+   max-height:180px; 
+   margin:0;
+   border: solid 1px #cccccc;
+}
+ 
+.entry-content.hr_resultlist.hr_at_inner a img {
+ 		 box-shadow:none !important;
+ }
+ 
+ 
+ 
+img.hr_li_image:hover,
+img.hr_at_image:hover {
+   opacity: .8 !important;
+}
+ 
+div.hr_li-si_text,
+div.hr_at_text {
+   font-size:14px; 
+   line-height:1; 
+   margin:10px 0; 
+   text-align:center;
+}
+
+table.hr_resultlist img.ngg-singlepic {
+	overflow:hidden !important;
+	box-shadow:none !important;
+}
+
+
+table.hr_resultlist .ngg-gallery-singlepic-image {
+	margin-bottom: 0 !important;
+	
+}
+
+div.hr_at_inner a.ngg-fancybox:hover {
+	box-shadow: none;
+}
+
+table.hr_resultlist a.nextgen_pro_lightbox {
+	overflow:hidden !important;
+}
+
+
+/**
+ * customize  advanced thumbnail layout  
+ *
+ */
+ .logged-in .fancybox__container {
+ 	  top:32px !important;
+ }
